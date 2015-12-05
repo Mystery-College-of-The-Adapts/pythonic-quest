@@ -1,7 +1,10 @@
 #include<iostream>
+#include<vector>
+
+
 
 using namespace std;
-
+using std::vector;
 
 
 
@@ -43,6 +46,20 @@ int main()
 		//for (int i = 0; i < 20; i--)
 			cout << endl<< array[i] << endl;
 	}
+
+
+
+	vector<int>arr(10);
+	
+	for (int i = 0; i < arr.size(); i++)
+		arr.push_back(5*i);
+
+	/*arr.push_back(10);
+	arr.push_back(20);
+	arr.push_back(30);
+	arr.push_back(20 * 30);*/
+	for (vector<int>::iterator it = arr.begin(); it != arr.end(); it++)
+		cout << *it << " " << endl;
 
 	system("pause");
 	return 0;
