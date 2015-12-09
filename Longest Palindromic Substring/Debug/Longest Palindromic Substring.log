@@ -1,0 +1,15 @@
+﻿Build started 12/6/2015 5:57:58 PM.
+     1>Project "E:\My Git Hub projects\Learning Data Structures and Algorithms\Learning-Data-Structures-and-Algorithms\Longest Palindromic Substring\Longest Palindromic Substring.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "longest palindrome.cpp"
+         longest palindrome.cpp
+     1>e:\my git hub projects\learning data structures and algorithms\learning-data-structures-and-algorithms\longest palindromic substring\longest palindrome.cpp(10): warning C4018: '<=': signed/unsigned mismatch
+     1>e:\my git hub projects\learning data structures and algorithms\learning-data-structures-and-algorithms\longest palindromic substring\longest palindrome.cpp(32): warning C4018: '<': signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\My Git Hub projects\Learning Data Structures and Algorithms\Learning-Data-Structures-and-Algorithms\Debug\Longest Palindromic Substring.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\My Git Hub projects\Learning Data Structures and Algorithms\Learning-Data-Structures-and-Algorithms\Debug\Longest Palindromic Substring.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\My Git Hub projects\Learning Data Structures and Algorithms\Learning-Data-Structures-and-Algorithms\Debug\Longest Palindromic Substring.lib" /MACHINE:X86 "Debug\longest palindrome.obj"
+         Longest Palindromic Substring.vcxproj -> E:\My Git Hub projects\Learning Data Structures and Algorithms\Learning-Data-Structures-and-Algorithms\Debug\Longest Palindromic Substring.exe
+     1>Done Building Project "E:\My Git Hub projects\Learning Data Structures and Algorithms\Learning-Data-Structures-and-Algorithms\Longest Palindromic Substring\Longest Palindromic Substring.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.93
