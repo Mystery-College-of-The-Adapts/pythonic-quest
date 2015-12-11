@@ -13,7 +13,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arrays and Strings", "Proje
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinarySearch", "BinarySearch\BinarySearch.vcxproj", "{4F9836CC-D94C-400C-AB6E-57179D066970}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse a String", "Reverse a String\Reverse a String.vcxproj", "{222DF37C-2EEC-4196-8E10-D1ED1FAC04D4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse a Sentence", "Reverse a String\Reverse a String.vcxproj", "{222DF37C-2EEC-4196-8E10-D1ED1FAC04D4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse polish Notation", "Reverse polish Notation\Reverse polish Notation.vcxproj", "{60755F50-3124-4A6A-A1C7-8E756EB8A02D}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Palindrome of a number", "Palindrome of a number\Palindrome of a number.vcxproj", "{97342BA7-E2BF-4109-AEB1-2E17E7D22644}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "String Palindrome", "String Palindrome\String Palindrome.vcxproj", "{B333AE41-EDE9-4B5E-A4D7-12A61729185B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse a String(Iterative)", "Reverse a String(Iterative)\Reverse a String(Iterative).vcxproj", "{615F4B49-4325-4AF5-A885-C8413EE8E3CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,14 @@ Global
 		{B333AE41-EDE9-4B5E-A4D7-12A61729185B}.Release|x64.Build.0 = Release|x64
 		{B333AE41-EDE9-4B5E-A4D7-12A61729185B}.Release|x86.ActiveCfg = Release|Win32
 		{B333AE41-EDE9-4B5E-A4D7-12A61729185B}.Release|x86.Build.0 = Release|Win32
+		{615F4B49-4325-4AF5-A885-C8413EE8E3CF}.Debug|x64.ActiveCfg = Debug|x64
+		{615F4B49-4325-4AF5-A885-C8413EE8E3CF}.Debug|x64.Build.0 = Debug|x64
+		{615F4B49-4325-4AF5-A885-C8413EE8E3CF}.Debug|x86.ActiveCfg = Debug|Win32
+		{615F4B49-4325-4AF5-A885-C8413EE8E3CF}.Debug|x86.Build.0 = Debug|Win32
+		{615F4B49-4325-4AF5-A885-C8413EE8E3CF}.Release|x64.ActiveCfg = Release|x64
+		{615F4B49-4325-4AF5-A885-C8413EE8E3CF}.Release|x64.Build.0 = Release|x64
+		{615F4B49-4325-4AF5-A885-C8413EE8E3CF}.Release|x86.ActiveCfg = Release|Win32
+		{615F4B49-4325-4AF5-A885-C8413EE8E3CF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
