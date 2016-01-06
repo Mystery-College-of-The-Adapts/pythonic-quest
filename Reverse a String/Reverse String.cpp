@@ -15,8 +15,8 @@ int main()
    for (int i = 0; i < word.size(); i++ )
           getline(std::cin, word[i]);
 
-   for (auto iter = word.begin(); iter != word.end(); iter++)
-	   cout << *iter << endl;
+   //for (auto iter = word.begin(); iter != word.end(); iter++)
+	  // cout << *iter << endl;
 
    cout << endl << endl << endl;
 

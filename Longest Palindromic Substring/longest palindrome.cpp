@@ -1,67 +1,58 @@
-#include<iostream>
-#include<string>
-
+#include <iostream>
+#include <math.h>
+#include <vector>
+#include <string>
 using namespace std;
-using std::string;
 
+// To execute C++, please define "int main()"
+// find the larger number in two inputs
+//ternary operator; 
+/*assume that a user inputs numbers, stored them in memory. search for a particular number, provided by a user*/
+//hello...9,2,3,4,5
+//hello, hell9,hel49, he329, h5329, 54329
 
-string helper(string s, int begin, int end)
+void toint(string &s, vector<char>&numbers)
 {
-	while (begin >= 0 && end <= s.length() - 1 && (s.at(begin) == s.at(end)))
-	{
-		begin--;
-		end++;
-	}
-
-	return s.substr(begin + 1, end);
-}
-
-
-
-string longestPalindrome(string s)
-{
-	if (s.empty())
-		return NULL;
-
-	else if (s.length() == 1)
-		return s;
-
-	else
-	{
-		string longest = s.substr(0, 1);
-		for (int i = 0; i < s.length(); i++)
-		{
-			//get longest palindrome with center of i 
-
-			string tmp = helper(s, i, i);
-			if (tmp.length() > longest.length())
-				longest = tmp;
-			
-
-			// get longest palindrome with center of i, i + 1
-
-			tmp = helper(s, i, i + 1);
-			if (tmp.length() > longest.length())
-				longest = tmp;
-		}
-
-		return longest;
-
-	}
-
+	int len = s.length();
 	
+	for (int i = 0; i < len; i++)
+	{
+		s[i] = numbers[len-1-i];
 		
+		
+	}
+
+	cout << s << endl;
 }
 
 
 
+int main() {
 
-int main()
-{
-	string s;
-	cin >> s;
+	string s = "helloy";
 
-	cout <<"The longest Palindrome is:"<< longestPalindrome(s) <<endl;
+	vector <char> numbers;
+
+	numbers.push_back('5');
+	numbers.push_back('6');
+	numbers.push_back('4');
+	numbers.push_back('7');
+	numbers.push_back('2');
+	numbers.push_back('1');
+
+	for (vector<char>::iterator iter = numbers.begin(); iter < numbers.end(); iter++)
+	{
+		cout << *iter << " ";
+	}
+
+	cout << endl;
+
+	cout << s << endl;
+
+	toint(s,numbers);
+
+
+
 
 	system("pause");
 	return 0;

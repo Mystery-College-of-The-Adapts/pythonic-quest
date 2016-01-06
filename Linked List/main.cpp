@@ -3,10 +3,6 @@
 #include<string>
 using namespace std;
 
-void insert(int x);
-
-void print();
-
 
 struct Node
 {
