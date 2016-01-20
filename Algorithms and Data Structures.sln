@@ -37,6 +37,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary Tree Traversal", "Bi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BSTree", "BSTree\BSTree.vcxproj", "{08CD7187-C390-466C-A6C6-D36F5FEB3696}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "String Compression", "String Compression\String Compression.vcxproj", "{740FE36A-20DA-492A-A213-0BE469448641}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse a string using XOR", "Reverse a string using XOR\Reverse a string using XOR.vcxproj", "{B6E746EB-1350-47EB-A527-7F13ED2DE651}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +185,22 @@ Global
 		{08CD7187-C390-466C-A6C6-D36F5FEB3696}.Release|x64.Build.0 = Release|x64
 		{08CD7187-C390-466C-A6C6-D36F5FEB3696}.Release|x86.ActiveCfg = Release|Win32
 		{08CD7187-C390-466C-A6C6-D36F5FEB3696}.Release|x86.Build.0 = Release|Win32
+		{740FE36A-20DA-492A-A213-0BE469448641}.Debug|x64.ActiveCfg = Debug|x64
+		{740FE36A-20DA-492A-A213-0BE469448641}.Debug|x64.Build.0 = Debug|x64
+		{740FE36A-20DA-492A-A213-0BE469448641}.Debug|x86.ActiveCfg = Debug|Win32
+		{740FE36A-20DA-492A-A213-0BE469448641}.Debug|x86.Build.0 = Debug|Win32
+		{740FE36A-20DA-492A-A213-0BE469448641}.Release|x64.ActiveCfg = Release|x64
+		{740FE36A-20DA-492A-A213-0BE469448641}.Release|x64.Build.0 = Release|x64
+		{740FE36A-20DA-492A-A213-0BE469448641}.Release|x86.ActiveCfg = Release|Win32
+		{740FE36A-20DA-492A-A213-0BE469448641}.Release|x86.Build.0 = Release|Win32
+		{B6E746EB-1350-47EB-A527-7F13ED2DE651}.Debug|x64.ActiveCfg = Debug|x64
+		{B6E746EB-1350-47EB-A527-7F13ED2DE651}.Debug|x64.Build.0 = Debug|x64
+		{B6E746EB-1350-47EB-A527-7F13ED2DE651}.Debug|x86.ActiveCfg = Debug|Win32
+		{B6E746EB-1350-47EB-A527-7F13ED2DE651}.Debug|x86.Build.0 = Debug|Win32
+		{B6E746EB-1350-47EB-A527-7F13ED2DE651}.Release|x64.ActiveCfg = Release|x64
+		{B6E746EB-1350-47EB-A527-7F13ED2DE651}.Release|x64.Build.0 = Release|x64
+		{B6E746EB-1350-47EB-A527-7F13ED2DE651}.Release|x86.ActiveCfg = Release|Win32
+		{B6E746EB-1350-47EB-A527-7F13ED2DE651}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
