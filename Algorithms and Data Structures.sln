@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "String Compression", "Strin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse a string using XOR", "Reverse a string using XOR\Reverse a string using XOR.vcxproj", "{B6E746EB-1350-47EB-A527-7F13ED2DE651}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decimal to Hexadeciaml", "Decimal to Hexadeciaml\Decimal to Hexadeciaml.vcxproj", "{45A89AB0-DCAA-4605-BA28-21D9AECF4F98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{B6E746EB-1350-47EB-A527-7F13ED2DE651}.Release|x64.Build.0 = Release|x64
 		{B6E746EB-1350-47EB-A527-7F13ED2DE651}.Release|x86.ActiveCfg = Release|Win32
 		{B6E746EB-1350-47EB-A527-7F13ED2DE651}.Release|x86.Build.0 = Release|Win32
+		{45A89AB0-DCAA-4605-BA28-21D9AECF4F98}.Debug|x64.ActiveCfg = Debug|x64
+		{45A89AB0-DCAA-4605-BA28-21D9AECF4F98}.Debug|x64.Build.0 = Debug|x64
+		{45A89AB0-DCAA-4605-BA28-21D9AECF4F98}.Debug|x86.ActiveCfg = Debug|Win32
+		{45A89AB0-DCAA-4605-BA28-21D9AECF4F98}.Debug|x86.Build.0 = Debug|Win32
+		{45A89AB0-DCAA-4605-BA28-21D9AECF4F98}.Release|x64.ActiveCfg = Release|x64
+		{45A89AB0-DCAA-4605-BA28-21D9AECF4F98}.Release|x64.Build.0 = Release|x64
+		{45A89AB0-DCAA-4605-BA28-21D9AECF4F98}.Release|x86.ActiveCfg = Release|Win32
+		{45A89AB0-DCAA-4605-BA28-21D9AECF4F98}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
