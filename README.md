@@ -67,7 +67,7 @@ ________________________________________________________________________________
 ## 2.  The Algorithm Design Manual
 
 - [ ] Practical Algorithm Design
-  - [ ] Intro to Algorithm Design
+  - [x] Intro to Algorithm Design
   - [ ] Algorithm Analysis
   - [ ] Data Structures
   - [ ] Sorting and Searching
