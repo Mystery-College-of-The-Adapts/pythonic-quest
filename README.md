@@ -89,3 +89,66 @@ ________________________________________________________________________________
   - [ ] Computational Geometry
   - [ ] Set and String Problems
   - [ ] Algorithmic Resources
+
+
+__________________________________________________________________________________
+
+
+## 3. Coursera: Algorithms: Design and Analysis, Part 1: stanford University
+
+- [ ] Week 1
+
+  - [ ] Introduction
+  - [ ] Asymptotic Analysis
+  - [ ] Divide and Conquer Algorithms
+  - [ ] Problem Set #1
+  - [ ] Programming Assignment #1
+
+
+- [ ] Week 2
+
+  - [ ] The master Method 
+  - [ ] Quicksort - Algorithm
+  - [ ] Quicksort - Analysis
+  - [ ] Probability Review 
+  - [ ] Problem Set #2
+  - [ ] Programming Assignment #2
+
+
+- [ ] Week 3
+
+  - [ ] Linear-Time Selection
+  - [ ] Graphs and the Contraction Algorithm
+  - [ ] Problem Set #3
+  - [ ] Programming Assignment #3
+
+
+- [ ] Week 4
+
+  - [ ] Graph Search and Connectivity
+  - [ ] Problem Set #4
+  - [ ] Programming Assignment #4
+
+
+- [ ] Week 5
+
+  - [ ] Dijkstra's Shortest Path
+  - [ ] Heaps
+  - [ ] balanced Binary Search Trees 
+  - [ ] Problem Set #5
+  - [ ] Programming Assignment #5
+
+
+- [ ] Week 6
+
+  - [ ] Hashing: The Basics
+  - [ ] Universal Hashing 
+  - [ ] Bloom Filters
+  - [ ] Preview of Part 2
+  - [ ] Problem Set #6
+  - [ ] Programming Assignment #6
+
+
+- [ ] Week 7
+
+  - [ ] Final Exam 
